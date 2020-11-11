@@ -2,7 +2,7 @@ import org.scalatest._
 import flatspec._
 import matchers._
 
-class GroupPriceTests extends AnyFlatSpec {
+class GroupPriceSpec extends AnyFlatSpec {
   val rates = List(
     Rate("M1", "Military"),
     Rate("M2", "Military"),
